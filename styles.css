@@ -25,12 +25,14 @@ header {
 
 footer {
     background-color: #ede7f6;
-    /* soft pastel blue */
-    color: #333;
-    padding: 1.5rem 1rem;
+    max-width: 800px;
+    margin: 2rem auto;
     text-align: center;
-    margin-top: 3rem;
-    border-top: 2px solid #ccc;
+    border: 1px solid #ff89b1;
+    /* Cream colored border */
+    padding: 2rem;
+    border-radius: 10px;
+    /* Optional: makes corners slightly rounded */
 }
 
 p,
