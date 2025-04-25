@@ -119,3 +119,12 @@ ul {
     margin: 0 auto 1rem auto;
     border-radius: 10px;
 }
+
+.footer-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem auto;
+    border-radius: 10px;
+}
