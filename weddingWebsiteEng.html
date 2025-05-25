@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PraDa Wedding</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="functions.js" defer></script>
 </head>
 
 <body>
+    <button id="goToTopBtn" class="go-to-top">⬆️ Go to Top</button>
+
     <header>
         <br><br><br>
         <img src="./Pictures/PraDaFlag.png" alt="PraDa Wedding Banner" class="main-image">
@@ -23,11 +26,27 @@
 
         <p>We hope this guide helps you plan ahead, feel at ease, and make the most of your experience—before, during, and after the celebration. 💕</p>
         <p><i>Reading Time about 10 Min (It's quite long!)</i></p>
+
+        <!-- Table of Contents -->
+        <h2 id="table-of-contents">📖 Table of Contents</h2>
+        <ul>
+            <li><a href="#important-time-schedule">🕰️ Important Time Schedule</a></li>
+            <li><a href="#whatsapp-group">📱 WhatsApp Group for Guests Traveling to Korea</a></li>
+            <li><a href="#dress-code">📍 Dress Code & How to Get to the Hanbok Store</a></li>
+            <li><a href="#wedding-venue">🚇 How to Get to the Wedding Venue</a></li>
+            <li><a href="#traditional-wedding">🎎 Traditional Korean Wedding @ King Sejong Memorial Hall</a></li>
+            <li><a href="#wedding-ceremony-flow">🕊️ Wedding Ceremony Flow</a></li>
+            <li><a href="#reception-food">🍽️ Reception Food – Buffet</a></li>
+            <li><a href="#gifts">🎁 What to Give as Gifts</a></li>
+            <li><a href="#after-wedding">🎉 After the Wedding</a></li>
+            <li><a href="#venue-videos">🎥 Curious About the Venue & Ceremony?</a></li>
+            <li><a href="#korea-travel-tips">✈️ Korea Travel Tips</a></li>
+        </ul>
     </header>
 
     <section>
         <h2>👰‍♀️ On Our Wedding Day 🤵‍♂️</h2>
-        <h3>🕰️ Important Time Schedule</h3>
+        <h3 id="important-time-schedule">🕰️ Important Time Schedule</h3>
         <table>
             <thead>
                 <tr>
@@ -70,13 +89,13 @@
             </tbody>
         </table>
 
-        <h3>📱 WhatsApp Group for Guests Traveling to Korea</h3>
+        <h3 id="whatsapp-group">📱 WhatsApp Group for Guests Traveling to Korea</h3>
         <p>We’ve created a WhatsApp group for all our friends coming from abroad! Feel free to ask questions, coordinate plans, or just chat:
             <br><a href="https://chat.whatsapp.com/FlMIuNS8CqkLFPacB2wFGc" target="_blank">👉 Join the Group Chat</a>
         </p>
         <img src="./Pictures/WhatsAppGroupQR.jpg" alt="WhatsApp Group QR" class="whatsappgroupqr-image">
 
-        <h3>📍 Dress Code & How to Get to the Hanbok Store</h3>
+        <h3 id="dress-code">📍 Dress Code & How to Get to the Hanbok Store</h3>
         <p>Hanbok is the beautiful and traditional attire of Korea. Since our wedding ceremony will follow a traditional Korean style, we’ll be wearing traditional wedding Hanbok.
             <br><br> We thought it would be even more special if our guests could join us in Hanbok as well—so we'd love for you to be part of the experience!
             <br><br> To make it easy, <strong>we’ll reserve a Hanbok rental shop for you</strong>, and <strong>we'll
@@ -89,7 +108,7 @@
             <br><br> We’ll share final confirmation and rental details soon, but just wanted to give you a heads-up so you can look forward to this fun part of the day!
         </p>
 
-        <h3>🚇 How to Get to the Wedding Venue</h3>
+        <h3 id="wedding-venue">🚇 How to Get to the Wedding Venue</h3>
 
         <p><strong>✅ Recommended Route from Hanbok Rental Shop to Nearest Subway Station of the Wedding Venue</strong>
         </p>
@@ -136,7 +155,7 @@
             <br>
         </p>
 
-        <h3>🎎 Traditional Korean Wedding @ King Sejong Memorial Hall</h3>
+        <h3 id="traditional-wedding">🎎 Traditional Korean Wedding @ King Sejong Memorial Hall</h3>
 
         <p><strong>📍 Venue:</strong> King Sejong Memorial Hall (세종대왕 기념관)</p>
 
@@ -158,7 +177,7 @@
                 building</strong>.</p>
 
 
-        <h3>🕊️ Wedding Ceremony Flow (전통혼례 식순)</h3>
+        <h3 id="wedding-ceremony-flow">🕊️ Wedding Ceremony Flow (전통혼례 식순)</h3>
         <p><strong>1. Bride & Groom Procession (신행행렬)</strong><br> 👣 The bride and groom make a traditional entrance in ceremonial attire.</p>
         <p><strong>2. Greeting Rituals (친영례 & 전안례)</strong><br> 🙇 The couple bows and the groom offers a wooden goose, symbolizing faithfulness.</p>
         <p><strong>3. 1st Performance (1차 축하공연)</strong><br> 🎶 A traditional music or dance performance to celebrate the union.</p>
@@ -170,7 +189,7 @@
         <p><strong>8. Couple Exit (신랑·신부 퇴장)</strong><br> 🚪 The newlyweds leave the ceremony area, now united as a married couple.</p>
         <p><strong>9. Group Photo & Meal (기념사진 & 피로연)</strong><br> 📸 Guests gather for a group photo and head to the reception for a traditional meal.</p>
 
-        <h3>🍽️ Reception Food – Buffet (Vegetarian/Vegan Options Available)</h3>
+        <h3 id="reception-food">🍽️ Reception Food – Buffet (Vegetarian/Vegan Options Available)</h3>
 
         <p>For the wedding reception, we’ll be serving a buffet-style meal. The menu is already pre-set, but we’ve done our best to include as many vegetarian-friendly options as possible.</p>
 
@@ -185,7 +204,7 @@
 
         <p>Thank you so much for your understanding — we hope you enjoy the meal and the celebration! 💛</p>
 
-        <h3>🎁 What to Give as Gifts</h3>
+        <h3 id="gifts">🎁 What to Give as Gifts</h3>
         <p>In Korean weddings, instead of bringing physical gifts, guests usually give “축의금” (chug-ui-geum) — a monetary gift in an envelope. This is a traditional way to congratulate the couple and help with wedding expenses.
         </p>
         <p>💌 That said, your presence alone means the world to us — especially since many of you are coming from far away. Gifts are absolutely not required. But if you really wish to give something, we will gratefully accept
@@ -203,7 +222,7 @@
 
         <p>Thank you for celebrating with us — your love and support is the greatest gift of all! 💛</p>
 
-        <h3>🎉 After the Wedding</h3>
+        <h3 id="after-wedding">🎉 After the Wedding</h3>
 
         <p>While wedding after-parties aren't really a tradition in Korea, we didn’t want the celebration to end too soon—so we’re planning a casual get-together in the evening to wind down with some drinks and great conversation. 🍻✨</p>
 
@@ -213,7 +232,7 @@
 
         <p><em>More info to come soon!</em></p>
 
-        <h3>🎥 Curious About the Venue & Ceremony?</h3>
+        <h3 id="venue-videos">🎥 Curious About the Venue & Ceremony?</h3>
 
         <p>If you’d like a sneak peek of the venue and what to expect during the ceremony, check out the videos in the links below! It’ll give you a feel for the atmosphere and how the day will unfold.</p>
 
@@ -230,9 +249,9 @@
     </section>
 
     <section>
-        <h2>✈️ Korea Travel Tips ✈️</h2>
+        <h2 id="korea-travel-tips">✈️ Korea Travel Tips ✈️</h2>
 
-        <h3>📱 Must-Have Apps for Korea Transportation</h3>
+        <h3 id="must-have-app">📱 Must-Have Apps for Korea Transportation</h3>
 
         <p><strong>✅ Naver Maps</strong><br> 📌 Highly recommended—works much better than Google Maps in Korea.<br> App Store (iOS): <a href="https://apps.apple.com/us/app/naver-map-navigation/id311867728" target="_blank">Download here</a><br> Google Play
             (Android): <a href="https://play.google.com/store/apps/details?id=com.nhn.android.nmap&pcampaignid=web_share" target="_blank">Download here</a>
@@ -264,7 +283,7 @@
         </p>
 
 
-        <h3>🚌 Airport Bus (Limousine Bus)</h3>
+        <h3 id="airport-bus">🚌 Airport Bus (Limousine Bus)</h3>
 
         <p><strong>✅ General Info:</strong><br> Airport limousine buses connect Incheon Airport (ICN) and Gimpo Airport (GMP) with major areas throughout Seoul.</p>
 
@@ -295,7 +314,7 @@
             timetables.
         </p>
 
-        <h3>🚄 Airport to Seoul by Subway & Train</h3>
+        <h3 id="airport-to-seoul">🚄 Airport to Seoul by Subway & Train</h3>
 
         <p><strong>✅ From Incheon International Airport (ICN):</strong></p>
 
@@ -330,7 +349,7 @@
             <strong>Notes:</strong> Can be tiring with heavy luggage due to transfers and stairs/escalators.
         </p>
 
-        <h3>🌿 Vegetarian & Vegan Food in Seoul 🌿</h3>
+        <h3 id="vegetarian-vegan-food">🌿 Vegetarian & Vegan Food in Seoul 🌿</h3>
 
         <p><strong>🌟 City Center (Jongno, Jung-gu, Seodaemun-gu area)</strong></p>
         <ul>
@@ -389,7 +408,7 @@
 
         <p><em>Tip:</em> Worst case, you can always visit Subway Sandwich! It’s (almost) everywhere! 🥪</p>
 
-        <h3>💳 Money & Payments in Korea</h3>
+        <h3 id="money-payments">💳 Money & Payments in Korea</h3>
 
         <p>In Korea, credit and debit cards are widely accepted in most places — restaurants, cafes, shops, and public transport. You can rely on your card for most of your spending.</p>
 
@@ -452,7 +471,7 @@
 
         <p>By utilizing Korea's efficient transportation options, you can comfortably explore the diverse attractions and cities the country has to offer. 🚄✨</p>
 
-        <h3>📱 Useful Apps & Websites</h3>
+        <h3 id="useful-apps">📱 Useful Apps & Websites</h3>
         <ul>
             <li><strong>Papago:</strong> Best Korean-English translator.</li>
             <li><strong>KakaoTalk:</strong> Main messaging app in Korea.</li>
@@ -460,7 +479,7 @@
             <li><strong>MangoPlate:</strong> Restaurant reviews in English.</li>
         </ul>
 
-        <h3>🎎 Cultural Tips & Etiquette</h3>
+        <h3 id="cultural-tips">🎎 Cultural Tips & Etiquette</h3>
         <ul>
             <li>Bow slightly when greeting people.</li>
             <li>Take off your shoes when entering homes and some traditional restaurants.</li>
@@ -469,13 +488,13 @@
             <li>Be mindful of subway etiquette (stay quiet, give seats to elderly and pregnant people).</li>
         </ul>
 
-        <h3>📶 SIM Card / Wi-Fi</h3>
+        <h3 id="sim-wif">📶 SIM Card / Wi-Fi</h3>
         <ul>
             <li>Rent a pocket Wi-Fi or get a Korean SIM card at Incheon Airport.</li>
             <li>Free Wi-Fi is common in cafés, subways, and public areas.</li>
         </ul>
 
-        <h3>🚨 Emergency & Safety</h3>
+        <h3 id="emergency-safety">🚨 Emergency & Safety</h3>
         <p>Korea is very safe, but save these important numbers:</p>
         <ul>
             <li>📞 112 – Police</li>
