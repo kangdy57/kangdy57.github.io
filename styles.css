@@ -862,6 +862,34 @@ p:last-child {
     gap: 14px;
 }
 
+/* From → to route line */
+
+.route {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    margin: 0 0 14px;
+    padding: 12px 14px;
+    background: var(--jade-soft);
+    border-radius: 12px;
+}
+
+.route-stop {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--jade);
+}
+
+.route-arrow {
+    font-size: 13px;
+    line-height: 1;
+    color: var(--jade);
+    opacity: .55;
+    padding-left: 2px;
+}
+
 .duo-grid .info-card {
     margin-bottom: 0;
 }
